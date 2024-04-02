@@ -242,6 +242,8 @@ static ngx_conf_bitmask_t  ngx_http_grpc_ssl_protocols[] = {
     { ngx_string("TLSv1.1"), NGX_SSL_TLSv1_1 },
     { ngx_string("TLSv1.2"), NGX_SSL_TLSv1_2 },
     { ngx_string("TLSv1.3"), NGX_SSL_TLSv1_3 },
+    // add to support gmsll
+    { ngx_string("GMTLS"), NGX_SSL_GMTLS },
     { ngx_null_string, 0 }
 };
 

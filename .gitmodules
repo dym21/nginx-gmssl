@@ -1,0 +1,10 @@
+[submodule "pcre2"]
+	path = pcre2
+	url = https://github.com/PCRE2Project/pcre2.git
+[submodule "zlib"]
+	path = zlib
+	url = https://github.com/madler/zlib.git
+[submodule "GmSSL"]
+	path = GmSSL
+	url = https://github.com/guanzhi/GmSSL.git
+	branch = GmSSL-v2

@@ -573,6 +573,13 @@ ngx_stream_ssl_preread_protocol_variable(ngx_stream_session_t *s,
             break;
         }
         break;
+    case 1:
+	    switch (ctx->version[1]) {
+	    case 1:
+	        ngx_str_set(&version, "GMTLS");
+	        break;
+	    }
+	    break;
     case 3:
         switch (ctx->version[1]) {
         case 0:
